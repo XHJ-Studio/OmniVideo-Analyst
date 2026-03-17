@@ -1,0 +1,41 @@
+# Core ML & Transformers
+torch>=2.4.0
+transformers>=4.44.0
+accelerate>=0.33.0
+flash-attn>=2.6.0
+
+# vLLM (Qwen3-Omni branch)
+# vllm @ git+https://github.com/wangxiongts/vllm.git@qwen3_omni
+
+# Video Processing
+opencv-python>=4.10.0
+ffmpeg-python>=0.2.0
+av>=12.0.0
+
+# Audio Processing
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# Utilities
+numpy>=1.24.0
+pillow>=10.0.0
+tqdm>=4.66.0
+pyyaml>=6.0
+
+# API & Web
+fastapi>=0.112.0
+uvicorn>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.8.0
+
+# ModelScope (China users)
+modelscope>=1.15.0
+
+# Optional: Qwen Omni Utils
+# qwen-omni-utils @ git+https://github.com/QwenLM/Qwen3-Omni.git
+
+# Development
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+black>=24.0.0
+flake8>=7.0.0
